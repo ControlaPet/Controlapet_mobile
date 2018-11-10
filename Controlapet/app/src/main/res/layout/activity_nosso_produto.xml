@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff6600"
+    tools:context=".NossoProduto"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="232dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="357dp"
+        android:layout_marginTop="33dp"
+        android:text="Nosso Produto"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTexto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:text="O produto Controla Pet trata-se de um sistema de gerenciamento e controle de clinicas veterinárias. O cliente escolhido para elaboração de tal é a clinica Morumbichos, situada no bairro do Morumbi, zona sul de São Paulo, que há 10 anos no mercado disponibilizou o cenário ideal para o desenvolvimento acadêmico de soluções para o negócio. "
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/txtTexto2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <TextView
+        android:id="@+id/txtTexto2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="71dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:text="Ao reunir problemas e melhorias, as proprietárias descreveram o cenário atual e os problemas dos quais a dificuldade de gerir um negócio farto de informações podem trazer, é fácil notar que os processos são organizados, mas a falta que a simplicidade que um sistema traria é significante. A principal carência é com o controle de vacinas e atendimentos de animais, seguido por alguma dificuldade em gerir perfis de pets e clientes."
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTexto" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo">
+
+        <Button
+            android:id="@+id/btnIndex"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="Voltar"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/neutro"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="373dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTexto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtTitulo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_controlapet" />
+
+
+</android.support.constraint.ConstraintLayout>

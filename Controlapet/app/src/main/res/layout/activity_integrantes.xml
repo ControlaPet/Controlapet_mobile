@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff6600"
+    tools:context=".Integrantes"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="357dp"
+        android:layout_marginTop="1dp"
+        android:text="Integrantes"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="351dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo">
+
+        <TextView
+            android:id="@+id/txtNome1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Bruno Lima dos Santos:"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTexto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21 anos, Consultor SAP ABAP ROFF | Desenvolvedor WEB Python "
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/txtNome2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Isaque Felizardo:"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTexto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Analista Desenvolvedor na SemiGlobe Tecnologia Ltda"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/txtNome3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Lucas Alves Siqueira:"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTexto3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19 anos, Python Developer at TIVIT One Cloud"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/txtNome4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Lucas Araujo de Oliveira:"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTexto4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18 anos, DBM analyst / C# Developer at System Interact"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/txtNome5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nayara de Paula Muniz:"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTexto5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19 anos, Estagiaria de Governança de IT na Kluber Lübrication "
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/txtNome6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Vitor Crepaldi Carlessi:"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTexto6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="23 anos, Trainee ABAP/PI na ROFF"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <Button
+            android:id="@+id/btnIndex"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="Voltar"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="158dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/feliz"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="373dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="329dp"
+        android:layout_marginStart="288dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_controlapet" />
+
+</android.support.constraint.ConstraintLayout>
